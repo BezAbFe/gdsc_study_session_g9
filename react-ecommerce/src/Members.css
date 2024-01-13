@@ -1,0 +1,17 @@
+.group-members {
+    font-family: 'serif', sans-serif;
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  li {
+    background-color: #c7a6a6;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
