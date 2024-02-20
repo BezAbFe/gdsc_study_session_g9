@@ -1,30 +1,28 @@
 import React from 'react';
 import './Members.css';
-import MinionImage from './minion.png';
+import FlowerImage from './flower.png';
 
 const GroupMembersList = () => {
   const groupMembers = [
-    'Afomia',
-    'Agumas',
-    'Alem',
-    'Amanuel A',
-    'Amanuel Ad',
-    'Amanuel F',
-    'Ammar',
-    'Andinet',
-    'Anteneh',
-    'Ariyam',
+    'Bezawit',
+    'Abate',
+    'Ferenj',
+    'Yared',
+    'Seblewengel',
+    'Mihret',
+    'Fekede',
+    'Melkam',
   ];
 
   return (
     <div className="group-members">
-      <h2>Group 8 Members</h2>
+      <h2>Group Members</h2>
       <ul>
         {groupMembers.map((member, index) => (
           <li key={index}>{member}</li>
         ))}
       </ul>
-      <img src={MinionImage} alt="Minion" className="crazy-minion" />
+      <img src={FlowerImage} alt="Flower" className="beautiful-flower" />
     </div>
   );
 };
